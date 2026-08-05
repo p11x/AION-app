@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logoUrl from "../../assets/logo.png";
 
 export default function Footer() {
   return (
@@ -7,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <img src="/logo.png" alt="AION Technologies Logo" className="h-8 w-auto object-contain" />
+              <img src={logoUrl} alt="AION Technologies Logo" className="h-8 w-auto object-contain" />
               <h3 className="text-lg font-bold text-white">AION Technologies</h3>
             </div>
             <p className="text-sm">
