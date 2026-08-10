@@ -56,7 +56,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-slate-900">Campus Address</h3>
-                    <p className="mt-1 text-slate-600">Aion Technology (P) Ltd.<br />HITEC City<br />Hyderabad, Telangana 500081, India</p>
+                    <p className="mt-1 text-slate-600">Aion Institute of Management Studies (AIMS)<br />HITEC City<br />Hyderabad, Telangana 500081, India</p>
                   </div>
                 </div>
 
