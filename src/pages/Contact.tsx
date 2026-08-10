@@ -13,8 +13,9 @@ export default function Contact() {
   const { register, handleSubmit } = useForm<ContactForm>();
 
   const onSubmit = (data: ContactForm) => {
-    console.log(data);
-    alert("Message sent successfully!");
+    const subject = encodeURIComponent(data.subject);
+    const body = encodeURIComponent(`Name: ${data.name}\nEmail: ${data.email}\n\nMessage:\n${data.message}`);
+    window.location.href = `mailto:career.aiontech@gmail.com?subject=${subject}&body=${body}`;
   };
 
   return (
