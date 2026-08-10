@@ -56,7 +56,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-slate-900">Campus Address</h3>
-                    <p className="mt-1 text-slate-600">Aion Institute of Management Studies (AIMS)<br />HITEC City<br />Hyderabad, Telangana 500081, India</p>
+                    <p className="mt-1 text-slate-600">Aion Institute of Management Studies (AIMS)<br />Chinna's complex, REVA university circle, Bagalur Main Rd<br />above Jockey Exclusive Store, Niranthara Layout<br />Kattigenahalli, Bengaluru, Sathanur, Karnataka 562149</p>
                   </div>
                 </div>
 
@@ -76,16 +76,23 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-slate-900">Email</h3>
-                    <p className="mt-1 text-slate-600">info@aiontech.edu<br />admissions@aiontech.edu</p>
+                    <p className="mt-1 text-slate-600">career.aiontech@gmail.com</p>
                   </div>
                 </div>
               </div>
             </div>
 
             <div className="rounded-2xl overflow-hidden shadow-sm border border-slate-200 h-64 bg-slate-200 relative">
-               <div className="absolute inset-0 flex items-center justify-center text-slate-500 font-medium">
-                  Map View Placeholder
-               </div>
+               <iframe 
+                 title="Map View"
+                 src="https://maps.google.com/maps?q=13.1225025,77.6284975&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                 width="100%" 
+                 height="100%" 
+                 style={{ border: 0 }} 
+                 allowFullScreen 
+                 loading="lazy"
+                 referrerPolicy="no-referrer-when-downgrade"
+               ></iframe>
             </div>
           </motion.div>
 
