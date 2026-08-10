@@ -120,7 +120,7 @@ export default function LabDetails() {
                 </div>
                 <div>
                   <h4 className="font-bold text-slate-900">Cutting-Edge Innovation</h4>
-                  <p className="text-xs text-slate-500">AIMS Research</p>
+                  <p className="text-xs text-slate-500">Aion Tech Career Research</p>
                 </div>
               </div>
               <p className="text-sm font-medium text-slate-600 leading-tight">

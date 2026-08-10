@@ -17,12 +17,12 @@ export default function SplashScreen() {
       >
         <img
           src={logoBase64}
-          alt="Aion Technology Logo"
+          alt="AION TECH CAREER Logo"
           className="h-32 md:h-48 w-auto object-contain mb-6"
         />
         
         <div className="text-center mb-12 flex flex-col items-center font-serif">
-          <h1 className="text-5xl md:text-6xl text-[#0b1c57] mb-2" style={{ fontFamily: "Georgia, serif" }}>Aion Technology</h1>
+          <h1 className="text-5xl md:text-6xl text-[#0b1c57] mb-2" style={{ fontFamily: "Georgia, serif" }}>AION TECH CAREER</h1>
           <p className="text-xl md:text-2xl text-black mb-2" style={{ fontFamily: "Georgia, serif" }}>Success has no Destiny</p>
           <h2 className="text-3xl md:text-4xl text-[#0b1c57]" style={{ fontFamily: "Georgia, serif" }}>Training, Placements And Software.</h2>
         </div>

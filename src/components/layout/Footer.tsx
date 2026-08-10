@@ -8,8 +8,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <img src={logoBase64} alt="AION - IMS Logo" className="h-8 w-auto object-contain" />
-              <h3 className="text-lg font-bold text-white">AION - IMS</h3>
+              <img src={logoBase64} alt="AION TECH CAREER Logo" className="h-8 w-auto object-contain" />
+              <h3 className="text-lg font-bold text-white">AION TECH CAREER</h3>
             </div>
             <p className="text-sm">
               Empowering future leaders through advanced education, innovative research, and exceptional placement opportunities.
@@ -36,17 +36,17 @@ export default function Footer() {
           <div>
             <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-slate-400">Contact</h4>
             <ul className="space-y-2 text-sm">
-              <li>Aion Institute of Management Studies (AIMS)</li>
-              <li>Chinna's complex, REVA university circle, Bagalur Main Rd</li>
-              <li>above Jockey Exclusive Store, Niranthara Layout</li>
-              <li>Kattigenahalli, Bengaluru, Sathanur, Karnataka 562149</li>
+              <li>Aion Tech Career</li>
+              <li>No 9, 1St Main Road, 3rd Cross,</li>
+              <li>Byraweshwara Nagar, Laggere, Bengaluru,</li>
+              <li>560058, Karnataka, India</li>
               <li>Email: career.aiontech@gmail.com</li>
               <li>Phone: +91 8050350011</li>
             </ul>
           </div>
         </div>
         <div className="mt-12 border-t border-slate-800 pt-8 text-center text-sm">
-          <p>&copy; {new Date().getFullYear()} Aion Institute of Management Studies (AIMS). All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Aion Tech Career. All rights reserved.</p>
         </div>
       </div>
     </footer>

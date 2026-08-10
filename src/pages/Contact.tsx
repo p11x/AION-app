@@ -57,7 +57,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-slate-900">Campus Address</h3>
-                    <p className="mt-1 text-slate-600">Aion Institute of Management Studies (AIMS)<br />Chinna's complex, REVA university circle, Bagalur Main Rd<br />above Jockey Exclusive Store, Niranthara Layout<br />Kattigenahalli, Bengaluru, Sathanur, Karnataka 562149</p>
+                    <p className="mt-1 text-slate-600">Aion Tech Career<br />No 9, 1St Main Road, 3rd Cross,<br />Byraweshwara Nagar, Laggere, Bengaluru,<br />560058, Karnataka, India</p>
                   </div>
                 </div>
 
@@ -86,7 +86,7 @@ export default function Contact() {
             <div className="rounded-2xl overflow-hidden shadow-sm border border-slate-200 h-64 bg-slate-200 relative">
                <iframe 
                  title="Map View"
-                 src="https://maps.google.com/maps?q=13.1225025,77.6284975&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                 src="https://maps.google.com/maps?q=13.011178,77.520136&t=&z=15&ie=UTF8&iwloc=&output=embed" 
                  width="100%" 
                  height="100%" 
                  style={{ border: 0 }} 
