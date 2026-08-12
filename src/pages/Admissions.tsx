@@ -36,6 +36,29 @@ export default function Admissions() {
 
   const onSubmit = (data: ApplicationForm) => {
     console.log(data);
+    
+    const subject = encodeURIComponent(`New Application from ${data.applicantName}`);
+    const body = encodeURIComponent(`New Application Details:
+-------------------------
+Applicant Name: ${data.applicantName}
+Date of Birth: ${data.dob}
+
+Contact Details:
+Email: ${data.email}
+Contact Number: ${data.contactNo}
+WhatsApp Number: ${data.whatsappNo || 'N/A'}
+
+Address:
+${data.address}
+${data.city}, ${data.state} - ${data.pincode}
+
+Application Details:
+Category: ${data.category}
+Accepted Terms: ${data.acceptedTerms === 'accept' || data.acceptedTerms === true ? 'Yes' : 'No'}
+-------------------------`);
+    
+    window.location.href = `mailto:career.aiontech@gmail.com?subject=${subject}&body=${body}`;
+    
     setIsSubmitted(true);
   };
 
