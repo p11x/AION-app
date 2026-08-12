@@ -26,9 +26,9 @@ export default function Navbar() {
         <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-2">
             <Link to="/" className="flex items-center space-x-3">
-              <img src={logoBase64} alt="AION TECH CAREER Logo" className="h-10 w-auto object-contain" />
+              <img src={logoBase64} alt="AION - IMS Logo" className="h-10 w-auto object-contain" />
               <div className="flex flex-col">
-                <span className="text-xl font-bold leading-none text-blue-900">AION TECH CAREER</span>
+                <span className="text-xl font-bold leading-none text-blue-900">AION - IMS</span>
               </div>
             </Link>
           </div>

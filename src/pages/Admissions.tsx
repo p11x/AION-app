@@ -153,7 +153,7 @@ export default function Admissions() {
             >
               <div className="mb-6 border-b border-slate-100 pb-4">
                 <span className="mb-2 inline-block rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-blue-600">
-                  Aion Tech Career
+                  AION - IMS
                 </span>
                 <h3 className="text-xl font-bold text-slate-900">Recruitment Criteria</h3>
               </div>

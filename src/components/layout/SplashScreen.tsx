@@ -18,13 +18,13 @@ export default function SplashScreen() {
         <img
           src={logoBase64}
           alt="Aion Technology Logo"
-          className="h-40 md:h-56 w-auto object-contain mb-2"
+          className="h-36 md:h-52 w-auto object-contain mb-3"
         />
         
-        <div className="text-center mb-12 flex flex-col items-center font-serif">
-          <h1 className="text-[2.75rem] md:text-7xl text-[#0c1c5c] mb-1 leading-tight font-normal" style={{ fontFamily: "Georgia, 'Times New Roman', serif", letterSpacing: "-0.01em" }}>Aion Technology</h1>
-          <p className="text-lg md:text-2xl text-black mb-2" style={{ fontFamily: "Georgia, 'Times New Roman', serif" }}>Success has no Destiny</p>
-          <h2 className="text-2xl md:text-5xl text-[#0c1c5c] font-normal" style={{ fontFamily: "Georgia, 'Times New Roman', serif", letterSpacing: "0.01em" }}>Training, Placements And Software.</h2>
+        <div className="text-center mb-10 flex flex-col items-center max-w-sm md:max-w-xl">
+          <h1 className="text-[2.6rem] sm:text-5xl md:text-6xl text-[#0c1c5c] mb-1 font-normal leading-tight" style={{ fontFamily: "Georgia, 'Times New Roman', serif" }}>Aion Technology</h1>
+          <p className="text-base sm:text-lg md:text-xl text-slate-900 mb-3" style={{ fontFamily: "Georgia, 'Times New Roman', serif" }}>Success has no Destiny</p>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl text-[#0c1c5c] font-normal leading-snug" style={{ fontFamily: "Georgia, 'Times New Roman', serif" }}>Training, Placements And Software.</h2>
         </div>
         
         <div className="flex flex-col items-center">

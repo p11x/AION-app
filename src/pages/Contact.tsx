@@ -57,7 +57,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-slate-900">Campus Address</h3>
-                    <p className="mt-1 text-slate-600">Aion Tech Career<br />No 9, 1St Main Road, 3rd Cross,<br />Byraweshwara Nagar, Laggere, Bengaluru,<br />560058, Karnataka, India</p>
+                    <p className="mt-1 text-slate-600">AION - IMS<br />No 9, 1St Main Road, 3rd Cross,<br />Byraweshwara Nagar, Laggere, Bengaluru,<br />560058, Karnataka, India</p>
                   </div>
                 </div>
 

@@ -8,8 +8,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <img src={logoBase64} alt="AION TECH CAREER Logo" className="h-8 w-auto object-contain" />
-              <h3 className="text-lg font-bold text-white">AION TECH CAREER</h3>
+              <img src={logoBase64} alt="AION - IMS Logo" className="h-8 w-auto object-contain" />
+              <h3 className="text-lg font-bold text-white">AION - IMS</h3>
             </div>
             <p className="text-sm">
               Empowering future leaders through advanced education, innovative research, and exceptional placement opportunities.
@@ -36,7 +36,7 @@ export default function Footer() {
           <div>
             <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-slate-400">Contact</h4>
             <ul className="space-y-2 text-sm">
-              <li>Aion Tech Career</li>
+              <li>AION - IMS</li>
               <li>No 9, 1St Main Road, 3rd Cross,</li>
               <li>Byraweshwara Nagar, Laggere, Bengaluru,</li>
               <li>560058, Karnataka, India</li>
@@ -46,7 +46,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-12 border-t border-slate-800 pt-8 text-center text-sm">
-          <p>&copy; {new Date().getFullYear()} Aion Tech Career. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} AION - IMS. All rights reserved.</p>
         </div>
       </div>
     </footer>
