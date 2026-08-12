@@ -56,7 +56,7 @@ export default function Home() {
             >
               <span className="mr-2 flex h-2 w-2 rounded-full bg-blue-500 shadow-[0_0_8px_rgba(59,130,246,0.8)]" />
               <span className="text-sm font-medium tracking-wide text-blue-200">
-                Welcome to AION - IMS
+                Welcome to Aion Institute of Management Studies
               </span>
             </motion.div>
 
@@ -78,7 +78,7 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
               className="mx-auto mb-12 max-w-2xl text-lg leading-relaxed text-slate-300 sm:text-xl"
             >
-              AION - IMS offers world-class education, cutting-edge research, and guaranteed placement opportunities in top-tier companies.
+              Aion Institute of Management Studies offers world-class education, cutting-edge research, and guaranteed placement opportunities in top-tier companies.
             </motion.p>
 
             <motion.div

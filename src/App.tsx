@@ -3,9 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { AnimatePresence } from "motion/react";
 import Layout from "./components/layout/Layout";
 import Home from "./pages/Home";
 import Programs from "./pages/Programs";
@@ -17,23 +15,10 @@ import FeatureDetails from "./pages/FeatureDetails";
 import Research from "./pages/Research";
 import LabDetails from "./pages/LabDetails";
 import Contact from "./pages/Contact";
-import SplashScreen from "./components/layout/SplashScreen";
 
 export default function App() {
-  const [showSplash, setShowSplash] = useState(true);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowSplash(false);
-    }, 2600); // Wait for the loading bar animation to finish
-    return () => clearTimeout(timer);
-  }, []);
-
   return (
     <BrowserRouter>
-      <AnimatePresence>
-        {showSplash && <SplashScreen key="splash" />}
-      </AnimatePresence>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
